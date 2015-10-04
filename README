@@ -1,0 +1,33 @@
+#File Overview
+
+##Main
+
+No need to edit this file, it simply begins the main game loop and initalizes states etc.
+
+##PreRoll
+
+This file is responsible for displaying the information at the top of the screen when a player is playing. Includes the a description of the scene and also the possible keywords that are available for use.
+
+##Actions
+
+This file is a list of all the keywords that can be used. It is a dictionary of function pointers. You may want to add an include to your own module.
+
+(TODO: Expand Actions dictionary modularly)
+
+## PRINTING
+
+A small library for printing out in different colours.
+
+##Provider
+
+A utility library containing easy access to functions like rolling dice, flipping coins, etc. Mainly used for randomly generating text/events/sequences.
+
+##Status
+
+The game states are described here.
+(TODO: Make more modular ifelse)
+
+##Prehistory
+
+An example of a functional file, including the actions of the user when redirected here by the actions file.
+
